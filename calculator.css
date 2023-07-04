@@ -1,0 +1,108 @@
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 15px solid #ccc;
+    border-radius: 40px;
+    background-color: #aa7942;
+    font-family: Arial, sans-serif;
+}
+
+.calculator button {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ccced2;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.calculator button.function {
+    background-color: #f28312; /* Change to your desired color */
+    color: #ffffff; /* Change the text color for readability */
+}
+
+.calculator button.number {
+    background-color: #00ff00; /* Change to your desired color */
+    color: #3c81bf; /* Change the text color for readability */
+}
+
+.btn-number {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e6e6e6;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+}
+
+.btn-operator {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff8c00;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+}
+
+.btn-equal {
+    grid-column: span 2;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+}
+
+.btn-decimal,
+.btn-clear {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e6e6e6;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Additional styles for other buttons if needed */
+
+
+.screen {
+    grid-column: span 4;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #bfdbf3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+
+/*var calculatorElement = document.getElementById('calculator');*/
+/*var resultElement = document.getElementById('result');*/
+
+/*calculatorElement.style.backgroundColor = '#f2f2f2';*/
+/*calculatorElement.style.padding = '20px';*/
+
+/*resultElement.style.fontSize = '24px';*/
+/*resultElement.style.fontWeight = 'bold';*/
+
